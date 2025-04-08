@@ -17,10 +17,9 @@ Animal::Animal( void ) {
 	this->_type = "Animal";
 }
 
-Animal::Animal( std::string type )  : _type(type){
+Animal::Animal( std::string type )  : _type(type) {
 	std::cout << PUR "Animal constructor called" END << std::endl;
 }
-// ici on a bouge l'init de la variable par rapport au 00 avec Jean donc voir si c'est judicieux
 
 Animal::~Animal( void ) {
 	std::cout << PUR "Animal destructor called" END << std::endl;
